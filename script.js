@@ -5,7 +5,7 @@ var body= document.getElementById("gradient");
 
 function background (){
     body.style.background = "linear-gradient(to right, "+ color1.value +", "+ color2.value+ ")";
-    css.textContent = "background: "+ body.style.background + ";";
+
 
 }
 
